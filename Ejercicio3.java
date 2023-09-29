@@ -1,3 +1,4 @@
+
 public class Ejercicio3 {
     public static void main(String[] args) {
         char letra, letra1, letra2, letra3;

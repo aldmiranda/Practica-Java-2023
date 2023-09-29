@@ -1,3 +1,4 @@
+
 public class Ejercicio7 {
     public static void main(String[] args) {
         double numreal1, numreal2;
