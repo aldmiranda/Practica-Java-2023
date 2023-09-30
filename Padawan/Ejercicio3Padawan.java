@@ -1,3 +1,5 @@
+package Padawan;
+
 public class Ejercicio3Padawan {
     public static void main(String[] args) {
         char l1, l2, l3, l4;

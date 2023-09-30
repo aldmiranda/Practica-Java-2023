@@ -1,3 +1,5 @@
+package Padawan;
+
 public class Ejercicio4Padawan {
     public static void main(String[] args) {
         int edad1, edad2, edad3, edad4;
