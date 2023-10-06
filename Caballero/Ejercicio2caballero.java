@@ -9,20 +9,21 @@ import java.util.Scanner;
 
 public class Ejercicio2caballero {
     public static void main(String[] args) {
-        int pesos;
+        int dolares;
         int TASA_FIJA;
         double dolarConversion;
 
         TASA_FIJA = 885;
                     
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese un importes en pesos: ");
-        pesos = scanner.nextInt();
+        System.out.println("Ingrese un importes en dolares: ");
+        dolares = scanner.nextInt();
 
-        dolarConversion = (double) pesos / TASA_FIJA;
+        dolarConversion = (double) dolares * TASA_FIJA;
 
         scanner.close();
-        System.out.printf("%d pesos equivalen a %.2f dolares, teniendo en cuenta un valor de %d%n Blue", pesos, dolarConversion, TASA_FIJA);
+        System.out.printf("%d dolares equivalen a %.2f pesos, teniendo en cuenta un valor de %d%n Blue", dolares, dolarConversion, TASA_FIJA);
      
     }
 }
+
